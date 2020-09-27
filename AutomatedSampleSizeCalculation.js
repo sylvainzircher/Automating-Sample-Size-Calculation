@@ -1,8 +1,8 @@
 function onOpen() {
   ui = SpreadsheetApp.getUi();
   
-  ui.createMenu("New Menu")
-  .addItem("Sample Size", "sampleSizes") 
+  ui.createMenu("Sample Size Calculation")
+  .addItem("Compute Sample Sizes", "sampleSizes") 
   .addToUi();  
 }
 
